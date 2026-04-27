@@ -8,7 +8,7 @@ void setup(){
   w = width;
   h = height;
 }
-void Estampa(float x,float y,float w,float h){
+void ns(float x,float y,float w,float h){
   circle(x,y,d);
   if(mousePressed){
   line(mouseX,mouseY,pmouseX,pmouseY);
@@ -18,5 +18,5 @@ void Estampa(float x,float y,float w,float h){
   }
 }
 void draw(){
- Estampa(x,y,w,h);
+ ns(x,y,w,h);
 }
